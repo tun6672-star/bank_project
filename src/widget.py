@@ -12,7 +12,7 @@ def mask_account_card(account_info: str) -> str:
     """
     parts = account_info.split()
     number = parts[-1]
-    card_type = ' '.join(parts[:-1])
+    card_type = " ".join(parts[:-1])
 
     if len(number) == 16 and number.isdigit():
         masked_number = get_mask_card_number(number)
