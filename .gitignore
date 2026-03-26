@@ -1,0 +1,15 @@
+# Виртуальное окружение
+venv/
+.venv/
+
+# Файлы кэша Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# Файлы, создаваемые black, flake8 и т.д.
+.mypy_cache/
+.pytest_cache/
